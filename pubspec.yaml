@@ -1,0 +1,50 @@
+name: timely
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_nav_bar: ^5.0.7
+  scrollable_clean_calendar: 1.5.0
+  roundcheckbox: ^2.0.5
+  lottie: ^3.3.1
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.5
+  intl: ^0.20.1
+  table_calendar: ^3.2.0
+  flutter_slidable: ^4.0.0
+  
+  contextmenu: ^3.0.0
+  flutter_local_notifications:
+  permission_handler:
+  shared_preferences:
+  timezone:
+  android_intent_plus:
+  device_info_plus:
+  modal_bottom_sheet: ^3.0.0
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+  flutter_launcher_icons: ^0.13.1
+  
+
+flutter_launcher_icons:
+  android: true
+  ios: false # true if building for iOS
+  image_path: "assets/images/timely.png" # path to your PNG
+
+flutter:
+  uses-material-design: true
+  assets: 
+  - assets/animations/
