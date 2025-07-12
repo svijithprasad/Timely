@@ -52,7 +52,7 @@ Inspired by Todoist, Timely helps you manage your day with clarity, structure, a
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/timely-todo-app.git
+git clone https://github.com/svijithprasad/timely-todo-app.git
 cd timely-todo-app
 flutter pub get
 flutter run
